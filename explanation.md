@@ -1,3 +1,6 @@
+##Group
+Chenjie - Gaspard - Johnny
+
 Here's some screenshots and explannation for each API endpoints: 
 
 /get_data
