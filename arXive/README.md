@@ -69,6 +69,7 @@ Request:
     GET request to http://localhost:8000/articles
 
 Response:
+
 ![image](https://github.com/Johnny2ki/esilv_api_project/assets/122288399/3d93c65e-850d-412f-ba07-b20b15a5e440)
 
 
