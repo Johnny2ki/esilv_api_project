@@ -1,5 +1,4 @@
-# Esilv_Api_Project
-# Noms des membres du groupe :
+Noms des membres du groupe :
 Chenjie LI 
 Johnny LI
 Gaspard MARTY
