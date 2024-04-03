@@ -18,7 +18,7 @@ Our project uses FastAPI to create the API and BeautifulSoup for web scraping. W
 ### Endpoints
 Here's some screenshots and explannation for each API endpoints: 
 
-/get_data
+## /get_data
 
 This endpoint returns a list of articles from the Arxiv site. The articles are retrieved using web scraping with BeautifulSoup. We have limited the number of articles to 5 for performance reasons.
 
@@ -32,7 +32,7 @@ Response:
 ![image](https://github.com/Johnny2ki/esilv_api_project/assets/122288399/5159f2ce-d6f2-4248-a32d-dc9507f7bc84)
 
 
-/articles
+## /articles
 
 This endpoint returns a list of articles with information such as the article number, title, publication date, etc. The articles are retrieved using web scraping with BeautifulSoup.
 
@@ -46,7 +46,7 @@ Response:
 ![image](https://github.com/Johnny2ki/esilv_api_project/assets/122288399/3d93c65e-850d-412f-ba07-b20b15a5e440)
 
 
-/article/<number>
+## /article/<number>
 
 This endpoint returns the content of a specified article. The content is retrieved using web scraping with BeautifulSoup.
 
@@ -60,7 +60,7 @@ Response:
 ![image](https://github.com/Johnny2ki/esilv_api_project/assets/122288399/59910f1f-9dbd-47e9-a505-7b735554de47)
 
 
-/ml or /ml/<number>
+## /ml or /ml/<number>
 
 This endpoint executes a machine learning script to perform sentiment analysis on all articles or on a specified article. We have used the TextBlob library to perform sentiment analysis.
 
@@ -74,7 +74,7 @@ Response:
 
 
 
-/ml/{number}
+## /ml/{number}
 
 To analyze the sentiment of a specific article, send a GET request to http://localhost:8000/ml/{article_number}, where {article_number} is the number of the article you want to analyze. This will return a JSON object containing the sentiment analysis of that article.
 
@@ -87,7 +87,7 @@ Response:
 
 
 
-/get_categories
+## /get_categories
 
 To get a list of categories available on arXiv, send a GET request to http://localhost:8000/get_categories. This will return a JSON object containing a list of categories.
 
@@ -99,10 +99,10 @@ Response:
 ![image](https://github.com/Johnny2ki/esilv_api_project/assets/122288399/42db15b1-a14c-48bf-bad9-dcdbcd69e9a6)
 
 
-/get_articles/math.CO
+## /get_articles/math.CO
 ![image](https://github.com/Johnny2ki/esilv_api_project/assets/122288399/b4a26621-cff6-4faa-a5e1-3a1ea6dec2e9)
 
-/categories/recent_articles
+## /categories/recent_articles
 
 To get a list of recent articles in a specific category, send a GET request to http://localhost:8000/recent_articles/{category}, where {category} is the category you want to retrieve. This will return a JSON object containing a list of recent articles in that category.
 
