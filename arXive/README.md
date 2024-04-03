@@ -80,3 +80,10 @@ Response:
 /categories/recent_articles
 ![image](https://github.com/Johnny2ki/esilv_api_project/assets/122288399/f2366280-dc10-4fb0-b36b-0a3acea3047d)
 
+
+## Group Members
+
+The members of the group are listed in the composition.txt file.
+
+## Conclusion
+
