@@ -136,3 +136,5 @@ The members of the group are listed in the composition.txt file.
 
 ## Conclusion
 
+In conclusion, our Project provides an API that fetches news related to Artificial Intelligence from the Arxiv website. We have designed several endpoints to serve different purposes, including fetching a list of articles, displaying article information, accessing the content of a specific article, and executing machine learning scripts for sentiment analysis. Our project uses FastAPI to create the API and BeautifulSoup for web scraping, as well as the TextBlob library for sentiment analysis.
+
