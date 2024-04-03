@@ -19,6 +19,7 @@ Our project uses FastAPI to create the API and BeautifulSoup for web scraping. W
 Here's some screenshots and explannation for each API endpoints: 
 
 /get_data
+
 This endpoint returns a list of articles from the Arxiv site. The articles are retrieved using web scraping with BeautifulSoup. We have limited the number of articles to 5 for performance reasons.
 
 Request:
